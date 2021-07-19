@@ -1,0 +1,236 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ul {
+    width: 9.8vw;
+}
+
+#head-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3rem;
+    padding: 1rem 1rem 0 0;
+    font-size: 0.85rem;
+    color: #303030;
+    font-weight: 400;
+}
+
+header {
+    display:flex;
+    justify-content: flex-end;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    height: 38vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#logo {
+    width: 14vw;
+  
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #f2f2f2;
+    padding: 1rem 2rem 0 2rem;
+    height: 5vh;
+    border-top: 1px solid lightgray;
+    font-family: 'Roboto' , sans-serif;
+}
+
+#nav-left {
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    color: #707070;
+    font-size: 0.9em;
+}
+
+#nav-right {
+    width: 15vw;
+    display: flex;
+    justify-content: space-between;
+    color: #707070;
+    font-size: 0.9em;
+}
+
+.search-form {
+    height: 20vh;
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.buttons {
+    width: 18.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input {
+    width: 30rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 30px;
+    background-image:;
+}
+
+#lang {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #303030;
+    word-spacing: 0.2rem;
+}
+
+button {
+    height: 2.2rem;
+    border: none ;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+    color:#303030 ;
+}
+
+button:hover {
+    border: 0.5px solid lightgray;
+    cursor: pointer;
+    box-shadow: 0 0.5px 2px 0px lightgray;
+}
+
+.material-icons-outlined {
+    font-family: 'Material Icons';
+  font-size: 1.5rem;
+  color: #707070;
+  padding-left: 1.5rem;
+  padding-right: 0.6rem;
+}
+
+
+
+.prof-pic {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+}
+
+.prof-pic:hover {
+    background-color: lightgray;
+    cursor: pointer;
+  background-size: 6rem 6rem;
+}
+
+.foot-link {
+    color:#707070;
+    text-decoration: none;
+}
+
+
+.foot-link:hover {
+    text-decoration: underline;
+}
+
+.head-link {
+    color:#707070;
+    text-decoration: none;
+}
+
+.head-link:hover {
+    text-decoration: underline;
+}
+
+.apps-icon:hover {
+    background: lightgray;
+    cursor: pointer;
+   background-size: 3rem 3rem;
+    border-radius: 35px;
+}
+
+.search-bar {
+    display: flex;
+    border: 1px solid lightgray;
+    border-radius: 35px;
+    
+}
+
+.search-bar:hover {
+    box-shadow: 1px 1px 5px 0px lightgray;
+    border: none;
+    cursor: pointer;
+}
+
+.search-icon {
+    background: none;
+}
+.search-icon:hover {
+    box-shadow: none;
+    border: none;
+}
+
+.keyboard-icon {
+   background: none;
+}
+
+.keyboard-icon:hover {
+    box-shadow: none;
+    border: none;
+}
